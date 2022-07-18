@@ -8,7 +8,7 @@
 #include "queue.hpp"
 using namespace std;
 #define LOOP 100000
-queue_cas<int, 1> queue;
+queue_cas<int, 1000> queue;
 mutex m;
 condition_variable cond;
 
